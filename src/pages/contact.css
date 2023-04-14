@@ -1,0 +1,9 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+  .contactTitle{
+    font-size: 20px;
+  }
