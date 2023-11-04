@@ -1,9 +1,13 @@
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
+    display: flex;   /*flex container*/
+    flex-direction: column; /*flex items set to 'column', stacking them vertically*/
+    justify-content: center;   /* Center the content vertically and horizontally within the container. */
+    padding: 10px 40px;
   }
   .contactTitle{
     font-size: 20px;
+  }
+
+  .contactBody{
+    font-size: 15px;
   }

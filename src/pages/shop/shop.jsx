@@ -14,6 +14,7 @@ export const Shop = () => {
       <h3>Feel your best at home</h3>
       </div>
 
+    {/*maps over the PRODUCTS array and renders the Product component for each product. The data prop is passed to the Product component, providing the product data*/}
       <div className="products">
         {PRODUCTS.map((product) => (
           <Product data={product} />

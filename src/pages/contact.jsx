@@ -8,8 +8,9 @@ export const Contact = () => {
   <div className="contactTitle">
   <h1>Contact Us</h1>
   </div>
-  <h4>Email: <Link>shani@gmail.com</Link></h4>
-  <h4>Phone: +972 050 123 4567</h4> 
-  
+  <div className="contactBody">
+  <h3>Email: <Link>shani@gmail.com</Link></h3>
+  <h3>Phone: +972 050 123 4567</h3> 
+  </div>
   </div>;
 };

@@ -18,11 +18,12 @@
 
 .cartItem img {
   width: 200px;
+  border-radius: 3px;
 }
 
 .cartItem .description {
   width: 100%;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .countHandler input {
@@ -40,4 +41,10 @@
   border-radius: 8px;
   margin: 10px;
   cursor: pointer;
+}
+
+.checkout{
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
 }

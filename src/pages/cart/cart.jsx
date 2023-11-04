@@ -17,16 +17,20 @@ export const Cart = () => {
         <h1>Your Cart Items</h1>
       </div>
       <div className="cart">
-        {PRODUCTS.map((product) => {
+      {/*The component maps over the PRODUCTS array, which presumably contains the available products. It checks if the quantity of each product in the cart (cartItems[product.id]) is not equal to 0. If the quantity is greater than 0, it renders a CartItem component with the product's data.*/}
+        {PRODUCTS.map((product) => {   
           if (cartItems[product.id] !== 0) {
             return <CartItem data={product} />;
           }
         })}
       </div>
 
+{/* Conditional Rendering Based on Cart Content: 
+if totalAmount is greater than 0, it renders the following elements inside a div with a CSS class "checkout"
+*/}
       {totalAmount > 0 ? (
         <div className="checkout">
-          <p> Subtotal: ${totalAmount} </p>
+          <p> Subtotal: {totalAmount}₪ </p>
           <button onClick={() => navigate("/")}> Continue Shopping </button>
           <button
             onClick={() => {
@@ -38,6 +42,7 @@ export const Cart = () => {
             Checkout{" "}
           </button>
         </div>
+        
       ) : (
         <h1> Your Shopping Cart is Empty</h1>
       )}
