@@ -1,27 +1,26 @@
 
-# My WishList Ecommerce Website
-Experience the power of JavaScript and React in action with my dynamic e-commerce website. Explore innovative features and elegant design, showcasing the potential of modern web development.
+# My WishList E-commerce Website
+Dynamic e-commerce website development using JavaScript, node.js, and React. 
 
-<h3 align="left">Languages and Tools used in this project:</h3>
+### Languages and Tools used in this project:
 
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap,nodejs)](https://skillicons.dev)
 
 ### Front-End Development Languages
 - JavaScript 
-- React: Components, Props, Events, Hooks, Router
-- react-bootstrap
-- CSS 3
-- HTML 5 
-- CSS
+- React-bootstrap, React: Components, Props, Events, Hooks, Router
+- CSS3
+- HTML5 
 
 ### Back-End Development Languages
 - Node.JS  
 
-## Features
+## Key Features
 
-- [x] Home - All products.
-- [x] Cart - Displaying and managing items in a shopping cart.
+- [x] Home - Lists products.
+- [x] Shopping Cart - Displaying and managing items in a shopping cart.
 - [x] Contact page.
+
 
 ## Ecommerce Website Preview :
 
