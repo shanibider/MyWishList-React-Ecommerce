@@ -7,6 +7,12 @@ import { Contact } from "./pages/contact";
 import { Cart } from "./pages/cart/cart";
 import { ShopContextProvider } from "./context/shop-context";
 
+
+// Main component of the application. It imports several components and wraps them in a ShopContextProvider and a Router.
+// The ShopContextProvider is a context provider that is used to manage the state of a shopping cart across the application.
+// The Router manage navigation between different pages. Inside the Router, there are Route components that define the paths for different pages and the components that should be rendered at those paths.
+
+
 function App() {
   return (
     <div className="App">

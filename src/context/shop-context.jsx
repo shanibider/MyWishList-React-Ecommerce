@@ -1,5 +1,8 @@
-// Creating and providing context for managing a shopping cart (adding, removing, updating, calculating, clearing)
-// save the cart's state and functionality, allowing other components to access and manipulate the cart's contents. (Common approach in e-commerce applications where a shopping cart needs to be shared across multiple parts of the app).
+// creates a `ShopContext` in React to manage a shopping cart. Initializes a default cart, and provides functions to add, remove, and update items,
+// calculate the total cost, and clear the cart.
+//The `ShopContextProvider` component uses the `useState` hook to manage the cart state and provides these functions and the cart state to its child components through the `ShopContext`.
+// This allows any component in the application to access and manipulate the cart's contents.
+
 
 import { createContext, useEffect, useState } from "react";
 import { PRODUCTS } from "../products";
