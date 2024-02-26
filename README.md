@@ -1,6 +1,6 @@
 
-# My WishList E-commerce React application
-Dynamic E-commerce application developed with JavaScript, node.js, and React. follows a standard React application structure with routing, state management, and component-based architecture for building modular and maintainable user interfaces.
+# My WishList Frontend E-commerce React application
+Dynamic E-commerce application developed with JavaScript, and React. follows a standard React application structure with routing, state management, and component-based architecture for building modular and maintainable user interfaces.
 
 ### Languages and Tools used in this project:
 [![My Skills](https://skillicons.dev/icons?i=js,react,html,css,bootstrap,nodejs)](https://skillicons.dev)
@@ -10,9 +10,6 @@ Dynamic E-commerce application developed with JavaScript, node.js, and React. fo
 - React-bootstrap, React: Components, Props, Events, Hooks, Router
 - CSS3
 - HTML5 
-
-### Back-End Development Languages
-- Node.JS
 
 
 
