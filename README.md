@@ -33,7 +33,6 @@ Dynamic E-commerce application developed with JavaScript, and React. follows a s
 
 
 
-
 ## Key Features
 
 - [x] Home - Lists products.
@@ -53,15 +52,12 @@ Dynamic E-commerce application developed with JavaScript, and React. follows a s
 ### The pages
 
 #### Home:
-
-![1](https://github.com/shanibider/Readme-tests/assets/72359805/814bcf94-f598-4e89-99d7-22a50b614160)
+![whishlist-React-App](https://github.com/shanibider/MyWishList-Ecommerce-React-Website/assets/72359805/aa3f7224-d981-4d79-9802-6fb5239276cd)
 
 #### Cart:
-
 ![2](https://github.com/shanibider/Readme-tests/assets/72359805/c7167b18-1cad-4745-b33a-7368ef609f09)
 
 #### Contact:
-
 ![3](https://github.com/shanibider/Readme-tests/assets/72359805/8628b38e-fae3-4f1a-87c1-5833c1f06660)
 
 
